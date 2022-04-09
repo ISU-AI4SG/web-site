@@ -1,12 +1,13 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-  </div>
+  <div class="home"></div>
 </template>
 
 <script>
 export default {
   name: "HomeView",
   components: {},
+  data() {
+    return {};
+  },
 };
 </script>
