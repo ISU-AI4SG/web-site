@@ -1,11 +1,14 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+    <home-bg />
+  </div>
 </template>
 
 <script>
+import homeBg from "../components/home/homeBg.vue";
 export default {
   name: "HomeView",
-  components: {},
+  components: { homeBg },
   data() {
     return {};
   },
